@@ -1,5 +1,5 @@
 Task 1 - Deploy the Machine
-![alt text](https://github.com/[Syntaktic]/Noah-Project-Repository/tree/[prod]/Pasted image 20240908095341.png?raw=true)
+![alt text](https://github.com/Syntaktic/Noah-Project-Repository/tree/prod/Pastedimage20240908095341.png?raw=true)
 
 Notes - Began AttackBox via TryHackMe. Spun up machine for the exercise.
 
