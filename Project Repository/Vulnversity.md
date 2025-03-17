@@ -27,6 +27,7 @@ Question 3) What version of the squid proxy is running on the machine?
 For the answer to this question, all we need to do is look in the details of the nmap scan we did earlier. 
 
 ![alt text](<Images/Pasted image 20240908100326.png>)
+
 We can see that squid proxy is running on the machine, on port 3128, and is using version 3.5.12.
 
 Question 4) How many ports will Nmap scan if the flag -p-400 was used?
@@ -65,6 +66,7 @@ Question 2) What is the directory that has an upload form page?
 
 After running the below command, we can see our results: ![alt text](<Images/Pasted image 20240908102115.png>)
 ![alt text](<Images/Pasted image 20240908102203.png>)
+
 We see that there is a path on the appache server called /internal/. This is out answer.
 
 Task 4 - Compromise the Webserver
@@ -125,6 +127,7 @@ After the execution of the command, wwe can see /bin/systemctl. This is how we w
 Question 2) What is the root flag value?
 
 This part is relatively easy. We just need to get into the /bin/systemctl directory. This is where user passwords are most commonly stored on linux. Simply, we need to read the root.txt file. 
+
 ![alt text](<Images/Pasted image 20240908110742.png>)
 
 All Done! Congrats!
