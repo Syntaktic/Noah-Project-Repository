@@ -9,7 +9,7 @@ Question 1) There are many Nmap "cheatsheets" online that you can use too.
 
 Make Use of the provided nmap cheatsheet. This is a brief list of commands and arguments that can be used in the terminal to invoke nmap.
 
-![[Pasted image 20240908095626.png]]
+![alt text](<Images/Pasted image 20240908095714.png>)
 
 Question 2) Scan the box; how many ports are open?
 
