@@ -3,7 +3,9 @@
 *Q: What is the last IP address that will be scanned when your scan target is 192.168.0.1/27?*
 
 A: To find this out, firstly we will run an nmap list scan of the target IP address. To do this, we will enter the following command: ![alt text](<Images/nmap-fig1.png>)
-After the scan has completed, it should look something like the following image: ![alt text](<Images/nmap-fig2.png>)
+After the scan has completed, it should look something like the following image: 
+
+![alt text](<Images/nmap-fig2.png>)
 Although nmap found 32 unique IP addresses on the subnet, keep in mind it counds the IP ending in .0.0 as an IP address. Therefore our answer is 192.168.0.31.
 
 **Task 3 - Port Scanning: Who is Listening**
