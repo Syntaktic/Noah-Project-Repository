@@ -4,6 +4,7 @@
 
 A: To find this out, firstly we will run an nmap list scan of the target IP address. To do this, we will enter the following command: 
 ![alt text](<Images/nmap-fig1.png>)
+
 After the scan has completed, it should look something like the following image: 
 
 ![alt text](<Images/nmap-fig2.png>)
