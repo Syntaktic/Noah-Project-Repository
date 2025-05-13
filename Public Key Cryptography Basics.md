@@ -67,11 +67,18 @@ Therefore, the key is 24.
 
 *Q: Check the SSH Private Key in **~/Public-Crypto-Basics/Task-5**. What algorithm does the key use?*
 
-A:  To begin this task, we need to log in to the target machine via SSH. We can do this through the following command as seen in the figure below: ![alt text](<Images/PKC Basics-fig1.png>)
+A:  To begin this task, we need to log in to the target machine via SSH. We can do this through the following command as seen in the figure below: 
+
+![alt text](<Images/PKC Basics-fig1.png>)
+
+
 For the password, we have to go back to task 1 to find the user account and password. The password is Tryhackme123! for the user account "user".
+
 Time to navigate to the directly stated in the question. We do this with the CD command.
 We can see that the private key is an RSA key based on the file name. 
+
 ![alt text](<Images/PKC Basics-fig2.png>)
+
 
 **Task 6 Digital Signatures and Certificates**
 
@@ -87,6 +94,11 @@ A: Let's Encrypt is a free service where you can get a free TLS certificate for 
 
 *Q: Use GPG to decrypt the message in **~/Public-Crypto-Basics/Task-7**. What Secret word does the message hold?*
 
-A:  The answer to this is quite simple. Firstly, we must navigate to the file path specified in the question. A quick cd command will get us there. We can see that there is a message.gpg file for us to look at. There is also a tryhackme.key file seen there as well! We need to import this first: ![alt text](<Images/PKC Basics-fig3.png>) Now that we have the secret key imported into GP, let's decrypt it using the following command seen below: ![alt text](<Images/PKC Basics-fig4.png>)
+A:  The answer to this is quite simple. Firstly, we must navigate to the file path specified in the question. A quick cd command will get us there. We can see that there is a message.gpg file for us to look at. There is also a tryhackme.key file seen there as well! We need to import this first: 
+
+![alt text](<Images/PKC Basics-fig3.png>)
+ Now that we have the secret key imported into GP, let's decrypt it using the following command seen below: 
+ 
+ ![alt text](<Images/PKC Basics-fig4.png>)
 
 Congratulations, we're done! Thank you for reading.
